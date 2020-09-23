@@ -1,0 +1,388 @@
+[Root]
+Most Recent Package=Hyperwrite Components
+
+[Package|NIXON Hyperwrite|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|NIXON Hyperwrite|$(Programs)]
+Icon1=hyperwrite.exe
+Title1=NIXON Hyperwrite
+StartIn1=$(AppPath)
+Key1=Icon2
+
+
+[Package|NIXON Hyperwrite|NIXON]
+Icon1=Hyperwrite.exe
+Title1=NIXON Hyperwrite
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NIXON Hyperwrite|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite_Components
+
+[Package|NIXON Hyperwrite|Configure DAO ISAMs]
+Applicable=No
+Xbase=No
+Jet 2.x=No
+
+[Package|NIXON Hyperwrite|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NIXON Hyperwrite|Files Found]
+
+[Package|NIXON Hyperwrite|Files Released]
+
+[Package|NIXON Hyperwrite|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|NIXON Hyperwrite|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|NIXON Hyperwrite|Files Added]
+c:\program files\nixon\hyperwrite\hyperwrite.exe.manifest=
+
+[Package|NIXON Hyperwrite|Files Removed]
+c:\program files\nixon\hyperwrite\hyperwrite.exe=
+c:\program files\nixon\hyperwrite\hyperwrite.exe.manifest=
+
+[Package|NIXON Hyperwrite|Files In Project]
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=No
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\WINDOWS\system32\OLEAUT32.DLL=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=No
+
+[Package|NIXON Hyperwrite|Configure Registry Files]
+Applicable=No
+
+[Package|NIXON Hyperwrite|Configure Remote Servers]
+Applicable=No
+
+[Package|NIXON Hyperwrite|Install Locations]
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=$(AppPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=$(AppPath)
+
+[Package|NIXON Hyperwrite|Configure Shared Files]
+Applicable=No
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=No
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=No
+
+[Package|NIXON Hyperwrite|Distribution]
+Type=single
+Size=
+Title=NIXON Hyperwrite
+
+[Package|NIXON Hyperwrite|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite_Components
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite_Components\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite_Components\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite_Components\hyperwrite.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Dep File 1|$(Programs)]
+Icon1=hyperwrite.exe
+Title1=NIXON Hyperwrite
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Dep File 1|NIXON]
+Icon1=Hyperwrite.exe
+Title1=NIXON Hyperwrite
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Program Files\NIXON\Hyperwrite
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Dep File 1|Files Added]
+c:\program files\nixon\hyperwrite\hyperwrite.exe.manifest=
+
+[Package|Dep File 1|Files Removed]
+c:\program files\nixon\hyperwrite\hyperwrite.exe=
+c:\program files\nixon\hyperwrite\hyperwrite.exe.manifest=
+
+[Package|Dep File 1|Files In Project]
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=No
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\WINDOWS\system32\OLEAUT32.DLL=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=No
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=$(AppPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=No
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=No
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=NIXON Hyperwrite
+
+[Package|Dep File 1|DepFile]
+DepCabFile=hyperwrite.CAB
+DepCabRun=hyperwrite.INF
+DepCabURL=http://nixon.freehostia.com/packages/hyperwrite
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Program Files\NIXON\Hyperwrite
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\MyProjects\Hyperwrite
+ServerSideCab=
+File1=C:\Program Files\NIXON\Hyperwrite\hyperwrite.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Hyperwrite Components|NIXON]
+Icon1=Hyperwrite.exe
+Title1=NIXON Hyperwrite
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Hyperwrite Components|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Billy.BILLYLIN\My Documents\hwcomponents
+
+[Package|Hyperwrite Components|Configure DAO ISAMs]
+Applicable=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Hyperwrite Components|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Hyperwrite Components|Files Found]
+
+[Package|Hyperwrite Components|Files Released]
+
+[Package|Hyperwrite Components|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Hyperwrite Components|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\comctl32.ocx=
+
+[Package|Hyperwrite Components|Files Added]
+c:\program files\nixon\hyperwrite\hyperwrite.exe.manifest=
+
+[Package|Hyperwrite Components|Files Removed]
+c:\program files\nixon\hyperwrite\hyperwrite.exe=
+c:\program files\nixon\hyperwrite\hyperwrite.exe.manifest=
+
+[Package|Hyperwrite Components|Files In Project]
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=No
+C:\WINDOWS\system32\Msvbvm60.dll=Yes
+C:\WINDOWS\system32\OLEAUT32.DLL=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\VBPrnDlg.dll=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+
+[Package|Hyperwrite Components|Configure Registry Files]
+Applicable=No
+
+[Package|Hyperwrite Components|Configure Remote Servers]
+Applicable=No
+
+[Package|Hyperwrite Components|Install Locations]
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=$(AppPath)
+C:\WINDOWS\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=$(AppPath)
+C:\WINDOWS\system32\VBPrnDlg.dll=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+
+[Package|Hyperwrite Components|Configure Shared Files]
+Applicable=No
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe=No
+C:\Program Files\NIXON\Hyperwrite\Hyperwrite.exe.manifest=No
+
+[Package|Hyperwrite Components|Distribution]
+Type=single
+Size=
+Title=NIXON Hyperwrite Components
+
+[Package|Hyperwrite Components|DepFile]
+DepCabFile=hyperwrite.CAB
+DepCabRun=hyperwrite.INF
+DepCabURL=http://nixon.freehostia.com/packages/hyperwrite
+
+[Package|Hyperwrite Components|Package]
+PackageFolder=C:\Documents and Settings\Billy.BILLYLIN\My Documents\hwcomponents
+ProjectFolder=C:\Documents and Settings\Billy.BILLYLIN\My Documents\hyperwrite_src\hyperwrite_src
+ServerSideCab=
+File1=C:\Documents and Settings\Billy.BILLYLIN\My Documents\hwcomponents\setup.exe
+File2=C:\Documents and Settings\Billy.BILLYLIN\My Documents\hwcomponents\Setup.Lst
+File3=C:\Documents and Settings\Billy.BILLYLIN\My Documents\hwcomponents\hyperwrite.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
